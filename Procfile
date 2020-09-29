@@ -1,1 +1,1 @@
-worker= python twitter_robot.py
+worker: python twitter_robot.py
