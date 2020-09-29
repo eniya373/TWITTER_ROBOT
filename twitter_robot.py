@@ -1,4 +1,4 @@
-import time
+import os
 import tweepy
 def create_api():
   consumer_key=os.getenv('consumer_key')
@@ -12,7 +12,7 @@ def create_api():
   api.verify_credentials()
   print("API created")
   return api
-import os
+import time
   def follower_count(user):
   emoji_numbers={0:'0️⃣',1:'1️⃣',2:'2️⃣',3:'3️⃣',4:'4️⃣',5:'5️⃣',6:'6️⃣',7:'7️⃣',8:'8️⃣',9:'9️⃣'}
   uf_split=[int(i) for i in str(user.followers_count)]
